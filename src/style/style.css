@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Cormorant Upright", serif;
+  position: relative;
+}
+
+::placeholder {
+  color: white;
+  text-align: center;
+}
+
+.developer{
+  position: absolute;
+  top: 5px;
+  right: 3px;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 13px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.developer:hover{
+  color: blueviolet;
+}
+.bg {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/1.jpg);
+  background-size: cover;
+  background-position: 40% 100%;
+  background-attachment: fixed;
+}
+
+form > * {
+  padding: 8px 30px;
+  outline: none;
+  background: hsla(0, 0%, 53%, 0.2);
+  border: 1px solid hsla(0, 0%, 53%, 0.8);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  color: white;
+  font-size: 21px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.city-name {
+  font-size: 21px;
+  color: white;
+  margin-top: 35px;
+  font-weight: 800;
+  letter-spacing: 8px;
+}
+.degree {
+  font-size: 110px;
+  color: white;
+  font-weight: 900;
+}
+.degree > sup {
+  font-size: 34px;
+}
+.sky-detail {
+  color: white;
+  font-size: 34px;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+}
+.other-details {
+  background-color: rgba(135, 135, 135, 0.2);
+  backdrop-filter: blur(7.5px);
+  border-radius: 3vw;
+  -webkit-border-radius: 3vw;
+  -moz-border-radius: 3vw;
+  -ms-border-radius: 3vw;
+  -o-border-radius: 3vw;
+}
+.other-details > div {
+  padding: 7px 15px;
+}
+.other-details p {
+  color: white;
+  font-size: 19px;
+  text-align: center;
+  font-weight: 900;
+  word-break: break-all;
+  margin: 0;
+}
+figure {
+  width: 70px;
+  height: 70px;
+  border-radius: 9px;
+}
+figure > img {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  backdrop-filter: blur(7.5px);
+}
