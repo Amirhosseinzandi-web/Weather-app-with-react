@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap");
 
 body {
+  width: 100%;
   font-family: "Cormorant Upright", serif;
   position: relative;
+  min-height: 100vh;
+  background-image: url(../img/1.jpg);
+  background-size: cover;
+  background-position: 40% 100%;
+  background-attachment: fixed;
 }
 
 ::placeholder {
@@ -28,15 +34,6 @@ body {
 }
 .developer:hover{
   color: blueviolet;
-}
-.bg {
-  width: 100%;
-  min-height: 100vh;
-  background-image: url(../img/1.jpg);
-  background-size: cover;
-  background-position: 40% 100%;
-  background-attachment: fixed;
-  overflow: hidden;
 }
 
 form > * {
