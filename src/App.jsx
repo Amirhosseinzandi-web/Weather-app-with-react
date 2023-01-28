@@ -12,9 +12,9 @@ export default function App() {
     const [inputData, setInputData] = useState("")
     const [weatherData, setWeatherData] = useState({
         city: "wait",
-        temperature: "",
+        temperature: "wait",
         unit: "",
-        desc: "",
+        desc: "wait",
         feelsLike: "",
         humidity: "",
         windSpeed: "",
