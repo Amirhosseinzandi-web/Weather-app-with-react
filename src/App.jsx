@@ -59,8 +59,8 @@ export default function App() {
     return (
         <div className="col-12 bg py-2">
             <a href="https://github.com/Amirhosseinzandi-web/" target="_blank" className="developer">Developer: Amir Hossein Zandi</a>
-            <div className="container-xxl d-flex justify-content-center">
-                <section className="d-flex flex-column align-items-center">
+            <div className="container-xxl d-flex justify-content-center align-items-center">
+                <section className="d-flex h-100 flex-column align-items-center justify-content-evenly">
                     <Form inputData={inputData} setInputData={setInputData} SerachHandler={SerachHandler} />
                     <CenterView weatherData={weatherData} />
                     <OtherDetails weatherData={weatherData} />

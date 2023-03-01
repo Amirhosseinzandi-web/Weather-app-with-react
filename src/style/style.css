@@ -4,7 +4,6 @@ body {
   width: 100%;
   font-family: "Cormorant Upright", serif;
   position: relative;
-  min-height: 100vh;
   background-image: url(../img/1.jpg);
   background-size: cover;
   background-position: 40% 100%;
@@ -15,7 +14,10 @@ body {
   color: white;
   text-align: center;
 }
-
+.bg{
+  min-height : 100vh;
+  display : flex
+}
 .developer{
   position: absolute;
   top: 5px;
